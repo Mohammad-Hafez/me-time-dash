@@ -1,3 +1,60 @@
 {
-  "Welcome": "Welcome to React and react-i18next"
+  "Welcome": "Welcome to React and react-i18next",
+  
+  "buttons" :{
+    "signup" : "Sign Up",
+    "back":"back",
+    "continue" : "continue",
+    "next": "next",
+    "login" : "Login"
+  },
+
+  "register":{
+    "header" : "Create an account",
+    "figCaption": "Level Up in Every Way: Market Like a Pro, Manage Like a Genius",
+    "checkAcc" : "Already have an account?",
+    "email" : "email",
+    "emailPlaceholder" : "Enter your Email",
+    "password" : "password",
+    "passwordPlaceholder" : "+8 character",
+    "confirmPass" :"Confirm Password",
+    "confirmPassPlaceholder" :"rewrite your password",
+
+    "success" : "Your business is set up!",
+
+    "progress":{
+      "Business name" :"Business name",
+      "Choose Business" :"Choose Business",
+      "Business info" :"add Business info"
+    },
+
+    "BusinessScreen":{
+      "header" :"What your business name?",
+      "placeholder" : "Enter your business name",
+      "label" : "Business name"
+    },
+
+    "choose":{
+      "header" : "What service do you provide?",
+      "beautySalon" : "Beauty salon",
+      "expert" : "Expert",
+      "store":"Store",
+      "medicalCenter":"Medical center"
+    },
+
+    "businessInfo" :{
+      "header" : "Set your location",
+      "label" : "Address",
+      "placeholder" : "Where is your business located?"
+    }
+  },
+
+  "sideMenu" : {
+    "services" : "Services",
+    "BusinessDetails" : "BusinessDetails",
+    "Staff" : "Staff",
+    "Appointments" : "Appointments",
+    "Products" : "Products",
+    "Label" : "Label"
+  }
 }
