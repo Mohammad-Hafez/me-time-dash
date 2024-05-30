@@ -1,3 +1,52 @@
 {
-  "Welcome": "أهلا بك في ماي تايم"
+  "Welcome": "مرحبًا بك في React و react-i18next",
+  "buttons": {
+    "signup": "تسجيل",
+    "back": "رجوع",
+    "continue": "استمرار",
+    "next": "التالي",
+    "login": "تسجيل الدخول"
+  },
+  "register": {
+    "header": "إنشاء حساب",
+    "figCaption": "ارتقِ بكل طريقة: سوق مثل المحترفين، وادِر مثل العباقرة",
+    "checkAcc": "هل لديك حساب بالفعل؟",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "+8 أحرف",
+    "confirmPass": "تأكيد كلمة المرور",
+    "confirmPassPlaceholder": "أعد كتابة كلمة المرور",
+    "success": "تم إعداد عملك بنجاح!",
+    "progress": {
+      "Business name": "اسم العمل",
+      "Choose Business": "اختر العمل",
+      "Business info": "أضف معلومات العمل"
+    },
+    "BusinessScreen": {
+      "header": "ما هو اسم عملك؟",
+      "placeholder": "أدخل اسم عملك",
+      "label": "اسم العمل"
+    },
+    "choose": {
+      "header": "ما هي الخدمة التي تقدمها؟",
+      "beautySalon": "صالون تجميل",
+      "expert": "خبير",
+      "store": "متجر",
+      "medicalCenter": "مركز طبي"
+    },
+    "businessInfo": {
+      "header": "حدد موقعك",
+      "label": "العنوان",
+      "placeholder": "أين يقع عملك؟"
+    }
+  },
+  "sideMenu": {
+    "services": "الخدمات",
+    "BusinessDetails": "تفاصيل العمل",
+    "Staff": "الموظفون",
+    "Appointments": "المواعيد",
+    "Products": "المنتجات",
+    "Label": "تسمية"
+  }
 }

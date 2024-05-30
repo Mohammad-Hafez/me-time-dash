@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --Purple-p50 : #f7e6ff ;
+  --Purple-p75 : #f7e6ff ;
+  --Purple-p100 : #f7e6ff ;
+  --Purple-p200 : #f7e6ff ;
+  --Purple-p300 : #f7e6ff ;
+  --Purple-p400 : #f7e6ff ;
+  --Purple-p500 : #f7e6ff ;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
