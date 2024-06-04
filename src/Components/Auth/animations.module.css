@@ -1,0 +1,121 @@
+/* animations.module.css */
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideOutToRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slideOutToLeft {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slideInFromLeftRTL {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRightRTL {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideOutToLeftRTL {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slideOutToRightRTL {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  .slideInRight {
+    animation: slideInFromRight 0.5s forwards;
+  }
+  
+  .slideInLeft {
+    animation: slideInFromLeft 0.5s forwards;
+  }
+  
+  .slideOutRight {
+    animation: slideOutToRight 0.5s forwards;
+  }
+  
+  .slideOutLeft {
+    animation: slideOutToLeft 0.5s forwards;
+  }
+  
+  .slideInLeftRTL {
+    animation: slideInFromLeftRTL 0.5s forwards;
+  }
+  
+  .slideInRightRTL {
+    animation: slideInFromRightRTL 0.5s forwards;
+  }
+  
+  .slideOutLeftRTL {
+    animation: slideOutToLeftRTL 0.5s forwards;
+  }
+  
+  .slideOutRightRTL {
+    animation: slideOutToRightRTL 0.5s forwards;
+  }
+  

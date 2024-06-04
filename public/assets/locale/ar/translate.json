@@ -1,11 +1,31 @@
 {
   "Welcome": "مرحبًا بك في React و react-i18next",
+  "helmet": {
+    "login": "Me-Time | تسجيل الدخول",
+    "register": "Me-Time | تسجيل"
+  },
   "buttons": {
     "signup": "تسجيل",
     "back": "رجوع",
     "continue": "استمرار",
     "next": "التالي",
     "login": "تسجيل الدخول"
+  },
+  "errors": {
+    "email-Format": "تنسيق البريد الإلكتروني غير صالح",
+    "email-Required": "البريد الإلكتروني مطلوب",
+    "password-Format": "يجب أن تكون كلمة المرور مكونة من 8 أحرف على الأقل",
+    "password-Required": "كلمة المرور مطلوبة",
+    "confirmPassword-Format": "كلمة المرور غير متطابقة",
+    "confirmPassword-Required": "تأكيد كلمة المرور مطلوب",
+    "BusinessName-Format": "تنسيق اسم العمل غير صالح",
+    "BusinessName-Required": "اسم العمل مطلوب"
+  },
+  "login": {
+    "header": "مرحبًا بعودتك!",
+    "forgetPassword": "هل نسيت كلمة المرور؟",
+    "checkAcc": "ليس لديك حساب؟",
+    "figCaption": "ارتقِ بكل طريقة: سوق مثل المحترفين، وادِر مثل العباقرة"
   },
   "register": {
     "header": "إنشاء حساب",
@@ -17,6 +37,7 @@
     "passwordPlaceholder": "+8 أحرف",
     "confirmPass": "تأكيد كلمة المرور",
     "confirmPassPlaceholder": "أعد كتابة كلمة المرور",
+    "hasAccount": "هل لديك حساب بالفعل؟",
     "success": "تم إعداد عملك بنجاح!",
     "progress": {
       "Business name": "اسم العمل",

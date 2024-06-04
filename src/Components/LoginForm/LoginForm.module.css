@@ -1,0 +1,37 @@
+.floatingInput {
+    position: relative;
+    margin-top: 16px;
+  }
+  
+  .floatingInput input {
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+    outline: none;
+    background: #f9f9f9;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .floatingInput label {
+    position: absolute;
+    top: 16px;
+    inset-inline-start: 16px;
+    background: #f9f9f9;
+    padding: 0 4px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+  
+  .floatingInput input:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 5px rgba(124, 58, 237, 0.3);
+  }
+  
+  .floatingInput input:focus ~ label,
+  .floatingInput input:not(:placeholder-shown) ~ label {
+    top: -8px;
+    inset-inline-start: 16px;
+    color: #7c3aed;
+    font-size: 12px;
+  }

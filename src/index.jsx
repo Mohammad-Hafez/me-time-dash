@@ -6,7 +6,7 @@ import { LanguageProvider } from "./Context/LanguageContext";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools'
-
+import './index.css'
 const root = createRoot(document.getElementById('root'));
 let queryClient = new QueryClient()
 

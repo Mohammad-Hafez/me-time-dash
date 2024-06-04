@@ -1,6 +1,9 @@
 {
   "Welcome": "Welcome to React and react-i18next",
-  
+  "helmet":{
+    "login" : "Me-Time | Login",
+    "register" :"Me-Time | Register"
+  },
   "buttons" :{
     "signup" : "Sign Up",
     "back":"back",
@@ -8,7 +11,22 @@
     "next": "next",
     "login" : "Login"
   },
-
+  "errors":{
+    "email-Format":"Invalid email format",
+    "email-Required":"Email is Required",
+    "password-Format":"Password must be at least 8 characters",
+    "password-Required":"Password is Required",
+    "confirmPassword-Format":"Wrong Password",
+    "confirmPassword-Required":"confirm Password is Required",
+    "BusinessName-Format":"Invalid email format",
+    "BusinessName-Required":"Business Name is Required"
+  },
+  "login":{
+    "header" : "Welcome back!",
+    "forgetPassword":"Forget password?",
+    "checkAcc" : "Don’t have an account?",
+    "figCaption":"Level Up in Every Way: Market Like a Pro, Manage Like a Genius"
+  },
   "register":{
     "header" : "Create an account",
     "figCaption": "Level Up in Every Way: Market Like a Pro, Manage Like a Genius",
@@ -19,21 +37,18 @@
     "passwordPlaceholder" : "+8 character",
     "confirmPass" :"Confirm Password",
     "confirmPassPlaceholder" :"rewrite your password",
-
+    "hasAccount" : "Already have an account?",
     "success" : "Your business is set up!",
-
     "progress":{
       "Business name" :"Business name",
       "Choose Business" :"Choose Business",
       "Business info" :"add Business info"
     },
-
     "BusinessScreen":{
       "header" :"What your business name?",
       "placeholder" : "Enter your business name",
       "label" : "Business name"
     },
-
     "choose":{
       "header" : "What service do you provide?",
       "beautySalon" : "Beauty salon",
@@ -41,14 +56,12 @@
       "store":"Store",
       "medicalCenter":"Medical center"
     },
-
     "businessInfo" :{
       "header" : "Set your location",
       "label" : "Address",
       "placeholder" : "Where is your business located?"
     }
   },
-
   "sideMenu" : {
     "services" : "Services",
     "BusinessDetails" : "BusinessDetails",

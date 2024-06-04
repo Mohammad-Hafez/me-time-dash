@@ -1,0 +1,11 @@
+.gallery {
+    border-start-start-radius: 8rem;
+    border-end-start-radius: 8rem;
+  }
+  
+  .banner{
+    background-image: url('../../../public/assets/images/Group\ 1.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    object-fit:fill;
+  }
