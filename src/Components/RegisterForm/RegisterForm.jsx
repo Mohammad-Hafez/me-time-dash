@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { useTranslation } from 'react-i18next';
 import { FaEye, FaEyeSlash, FaExclamationCircle } from 'react-icons/fa';
 import floatingStyles from '../LoginForm/LoginForm.module.css';
 
-const RegisterForm = ({handleToggle}) => {
-    let { t } = useTranslation();
+const RegisterForm = ({handleToggle , setRegisterSteps , t}) => {
 
     const [showPassword, setShowPassword] = useState(false);
     const [showRepassword, setShowRepassword] = useState(false);
@@ -42,6 +40,7 @@ const RegisterForm = ({handleToggle}) => {
     const onSubmit = (values, { setSubmitting }) => {
         console.log('Form data', values);
         setSubmitting(false);
+        setRegisterSteps(true)
     };
 
     return (

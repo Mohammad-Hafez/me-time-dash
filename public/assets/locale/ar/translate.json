@@ -40,7 +40,7 @@
     "hasAccount": "هل لديك حساب بالفعل؟",
     "success": "تم إعداد عملك بنجاح!",
     "progress": {
-      "Business name": "اسم العمل",
+      "BusinessName": "اسم العمل",
       "Choose Business": "اختر العمل",
       "Business info": "أضف معلومات العمل"
     },

@@ -2,7 +2,8 @@
   "Welcome": "Welcome to React and react-i18next",
   "helmet":{
     "login" : "Me-Time | Login",
-    "register" :"Me-Time | Register"
+    "register" :"Me-Time | Register",
+    "businessDetails" :"Me-Time | BusinessDetails"
   },
   "buttons" :{
     "signup" : "Sign Up",
@@ -14,8 +15,12 @@
   "errors":{
     "email-Format":"Invalid email format",
     "email-Required":"Email is Required",
+    "phone-Format":"Invalid phone number format",
+    "phone-Required":"phone number is Required",
     "password-Format":"Password must be at least 8 characters",
     "password-Required":"Password is Required",
+    "repassword-Format":"repassword don't match with your password",
+    "repassword-Required":"repassword is Required",
     "confirmPassword-Format":"Wrong Password",
     "confirmPassword-Required":"confirm Password is Required",
     "BusinessName-Format":"Invalid email format",
@@ -32,17 +37,18 @@
     "figCaption": "Level Up in Every Way: Market Like a Pro, Manage Like a Genius",
     "checkAcc" : "Already have an account?",
     "email" : "email",
-    "emailPlaceholder" : "Enter your Email",
+    "phone" : "phone number",
     "password" : "password",
+    "repassword" : "confirm your password",
     "passwordPlaceholder" : "+8 character",
     "confirmPass" :"Confirm Password",
     "confirmPassPlaceholder" :"rewrite your password",
     "hasAccount" : "Already have an account?",
     "success" : "Your business is set up!",
     "progress":{
-      "Business name" :"Business name",
-      "Choose Business" :"Choose Business",
-      "Business info" :"add Business info"
+      "BusinessName" :"Business name",
+      "ChooseBusiness" :"Choose Business",
+      "BusinessInfo" :"add Business info"
     },
     "BusinessScreen":{
       "header" :"What your business name?",
@@ -64,7 +70,7 @@
   },
   "sideMenu" : {
     "services" : "Services",
-    "BusinessDetails" : "BusinessDetails",
+    "BusinessDetails" : "Business Details",
     "Staff" : "Staff",
     "Appointments" : "Appointments",
     "Products" : "Products",

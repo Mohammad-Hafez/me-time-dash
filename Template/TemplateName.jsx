@@ -1,13 +1,18 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import styles from './TemplateName.module.css';
+import { Helmet } from 'react-helmet';
 
-export default function TemplateName() {
+const TemplateName = ({t}) => {
     return <>
         <Helmet>
-            Title
+            <title>
+                {t('helmet.')}
+            </title>
         </Helmet>
-        <section>
-            
+        <section className={styles.templateName}>
+
         </section>
     </>
-}
+};
+
+export default TemplateName;

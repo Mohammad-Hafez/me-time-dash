@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { useTranslation } from 'react-i18next';
 import { FaEye, FaEyeSlash, FaExclamationCircle } from 'react-icons/fa';
 import styles from './LoginForm.module.css';
 import { Link } from 'react-router-dom';
+import { CiLock } from "react-icons/ci";
+import { HiOutlineMail } from "react-icons/hi";
 
-const LoginForm = ({handleToggle}) => {
-    let { t } = useTranslation();
-
-
+const LoginForm = ({handleToggle , t}) => {
 
     const [showPassword, setShowPassword] = useState(false);
 

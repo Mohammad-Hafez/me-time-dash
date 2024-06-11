@@ -89,7 +89,8 @@
   
   .slideInRight {
     animation: slideInFromRight 0.5s forwards;
-  }
+    -webkit-animation: slideInFromRight 0.5s forwards;
+}
   
   .slideInLeft {
     animation: slideInFromLeft 0.5s forwards;
