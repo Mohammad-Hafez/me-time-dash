@@ -4,7 +4,7 @@ import styles from './SetBusinessInfo.module.css';
 const SetBusinessInfo = ({t}) => {
     return <>
         <section className={styles.setBusinessInfo}>
-            <h1>Address </h1>
+            <h1>{t('register.businessInfo.header')} </h1>
         </section>
     </>
 };

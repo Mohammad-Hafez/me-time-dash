@@ -7,15 +7,17 @@
   },
   "buttons" :{
     "signup" : "Sign Up",
-    "back":"back",
-    "continue" : "continue",
-    "next": "next",
+    "back":"Back",
+    "continue" : "Continue",
+    "next": "Next",
+    "previous": "Previous",
+    "done": "Done",
     "login" : "Login"
   },
   "errors":{
     "email-Format":"Invalid email format",
     "email-Required":"Email is Required",
-    "phone-Format":"Invalid phone number format",
+    "phone-Format":"Invalid phone number format (+962 XXX XXX XXX)",
     "phone-Required":"phone number is Required",
     "password-Format":"Password must be at least 8 characters",
     "password-Required":"Password is Required",
@@ -48,7 +50,7 @@
     "progress":{
       "BusinessName" :"Business name",
       "ChooseBusiness" :"Choose Business",
-      "BusinessInfo" :"add Business info"
+      "BusinessInfo" :"Business info"
     },
     "BusinessScreen":{
       "header" :"What your business name?",

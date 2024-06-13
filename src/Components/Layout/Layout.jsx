@@ -10,7 +10,7 @@ export default function Layout() {
     const { changeLanguage } = useLanguage();
     let {t} = useTranslation()
     return (
-        <div className="min-h-screen grid grid-cols-12 grid-rows-12  gap-y-0">
+        <div className="min-h-screen grid grid-cols-12 grid-rows-12 gap-y-0">
             {/* Sidebar */}
             {/* <aside className="lg:col-span-2 md:col-span-3 col-span-4 row-span-11 ">
                 <SideMenu t={t} changeLanguage={changeLanguage} />

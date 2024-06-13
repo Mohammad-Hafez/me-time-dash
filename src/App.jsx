@@ -5,7 +5,7 @@ import Routers from './config/routes';
 function App() {
 
   return (
-    <div className="App capitalize">
+    <div className="capitalize">
       <Routers />
     </div>
   );
